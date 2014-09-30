@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `guest` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(20) NOT NULL,
+  `data` VARCHAR(20) NOT NULL,
+  `text` TEXT NOT NULL,
+  PRIMARY KEY  (`id`)
+);
